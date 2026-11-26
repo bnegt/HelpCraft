@@ -32,9 +32,11 @@ services:
     devices: [/dev/dri:/dev/dri]
     group_add: ["${RENDER_GID:-989}", "${VIDEO_GID:-985}"]
     profiles: [test]
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"
     working_dir: /tests
     environment:
       BASE_URL: ${BASE_URL:-http://localhost:8090/main/}
+      HOME: /tmp
     command: bash -c "npm ci --no-audit --no-fund && npx playwright test"
     volumes: [./tests:/tests]
     ipc: host

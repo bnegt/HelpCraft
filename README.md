@@ -30,6 +30,9 @@ docker compose up -d web mcp
     in the WebGL2 fallback);
   - so `/dev/dri` is passed in and Chromium runs WebGPU on Vulkan (Mesa, Intel Arc/UHD).
     `RENDER_GID`/`VIDEO_GID` in `.env` (copy `.env.example`) are the host's `render`/`video` group ids.
+- The `test` container runs as `HOST_UID`/`HOST_GID` (from `.env`), so `tests/node_modules` and
+  the reports stay owned by you. `tests/smoke.spec.ts` checks the status div reaches `running`,
+  WebGPU is present, the canvas isn't one flat colour, and the console has no panics.
 - egui draws everything on one `<canvas>`, so there is no DOM to select: clicks go by coordinates
   at a fixed 1440x900 viewport. Useful DOM hooks: `#camcraft-status[data-state]`
   (`running`/`refused`), console output, and the `<input type=file>` the app opens to import models.
