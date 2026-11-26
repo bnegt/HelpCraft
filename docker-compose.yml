@@ -1,0 +1,45 @@
+name: helpcraft
+services:
+  # docker compose run --rm build NeoTech/Camcraft main   (or pr:4009, or a branch)
+  build:
+    build: { context: docker, dockerfile: build.Dockerfile, network: host }
+    network_mode: host
+    profiles: [build]
+    volumes:
+      - camcraft-src:/src
+      - cargo-registry:/opt/cargo/registry
+      - ./out:/out
+  # host networking throughout (works without veth; localhost only)
+  # serves out/<slug>/ at http://localhost:8090/<slug>/
+  web:
+    image: python:3-alpine
+    command: python -m http.server 8090 --bind 127.0.0.1 -d /out
+    network_mode: host
+    volumes: [./out:/out:ro]
+  # Playwright MCP for Claude Code: claude mcp add --transport http playwright http://localhost:8931/mcp
+  mcp:
+    image: helpcraft-browser
+    build: { context: docker, dockerfile: browser.Dockerfile, network: host }
+    command: ["playwright-mcp", "--config", "/config/config.json", "--allowed-hosts", "*"]
+    devices: [/dev/dri:/dev/dri]
+    group_add: ["${RENDER_GID:-989}", "${VIDEO_GID:-985}"]
+    volumes: [./mcp:/config:ro]
+    network_mode: host
+    depends_on: [web]
+  # docker compose run --rm test     (BASE_URL=... to point elsewhere)
+  test:
+    image: helpcraft-browser
+    devices: [/dev/dri:/dev/dri]
+    group_add: ["${RENDER_GID:-989}", "${VIDEO_GID:-985}"]
+    profiles: [test]
+    working_dir: /tests
+    environment:
+      BASE_URL: ${BASE_URL:-http://localhost:8090/main/}
+    command: bash -c "npm ci --no-audit --no-fund && npx playwright test"
+    volumes: [./tests:/tests]
+    ipc: host
+    network_mode: host
+    depends_on: [web]
+volumes:
+  camcraft-src:
+  cargo-registry:

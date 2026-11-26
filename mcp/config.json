@@ -1,0 +1,13 @@
+{
+  "browser": {
+    "browserName": "chromium",
+    "launchOptions": {
+      "headless": true,
+      "chromiumSandbox": false,
+      "args": ["--enable-unsafe-webgpu", "--enable-features=Vulkan,VulkanFromANGLE,DefaultANGLEVulkan", "--use-angle=vulkan", "--use-vulkan=native", "--ignore-gpu-blocklist", "--disable-vulkan-surface"]
+    },
+    "contextOptions": { "viewport": { "width": 1440, "height": 900 }, "deviceScaleFactor": 1 }
+  },
+  "server": { "port": 8931, "host": "127.0.0.1" },
+  "capabilities": ["vision"]
+}
