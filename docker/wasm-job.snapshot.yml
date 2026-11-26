@@ -1,0 +1,32 @@
+# NeoTech/Camcraft .github/workflows/release.yml, job `wasm`, at 763a1dbff (comments dropped).
+# build.Dockerfile mirrors this; build-ref warns when the ref it builds differs.
+# Refresh after updating build.Dockerfile: scripts/update-wasm-snapshot.sh
+  wasm:
+    if: ${{ !inputs.site_only }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install the wasm32 Rust target and the C toolchain
+        run: |
+          rustup target add wasm32-unknown-unknown
+          sudo apt-get update
+          sudo apt-get install -y clang-18 llvm-18
+          echo "CC_wasm32_unknown_unknown=clang-18" >> "$GITHUB_ENV"
+          echo "AR_wasm32_unknown_unknown=llvm-ar-18" >> "$GITHUB_ENV"
+      - name: Build the browser shell
+        run: bash web/build-app-wasm.sh --release
+      - name: Check the page folder
+        run: |
+          bash web/check-app-page.sh target/web
+          ls -l target/web
+      - name: Cargo.lock untouched
+        if: always()
+        run: git diff --quiet -- Cargo.lock || echo "::warning::web/build-app-wasm.sh left Cargo.lock modified (#949)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wasm-app
+          path: target/web/
+          if-no-files-found: error
