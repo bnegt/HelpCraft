@@ -6,6 +6,8 @@ drives it by hand (Playwright MCP), or scripted Playwright tests do.
 
 ![CamCraft main running in the container](docs/camcraft-in-docker.png)
 
+Help movie, recorded by `tests/help-contour.spec.ts`: [how to make a contour toolpath](docs/help/contour-path.mp4) (1:33).
+
 ## Pieces (`docker-compose.yml`)
 
 | service | what it does |
