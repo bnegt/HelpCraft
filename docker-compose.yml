@@ -23,7 +23,7 @@ services:
     command: ["playwright-mcp", "--config", "/config/config.json", "--allowed-hosts", "*"]
     devices: [/dev/dri:/dev/dri]
     group_add: ["${RENDER_GID:-989}", "${VIDEO_GID:-985}"]
-    volumes: [./mcp:/config:ro]
+    volumes: [./mcp:/config:ro, ./tests/fixtures:/tmp/.playwright-mcp/fixtures:ro]
     network_mode: host
     depends_on: [web]
   # docker compose run --rm test     (BASE_URL=... to point elsewhere)
