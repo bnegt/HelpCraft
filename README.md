@@ -21,6 +21,7 @@ docker compose up -d web mcp
 docker compose run --rm test                          # suite against out/main
 scripts/test-pr.sh 4009                               # build pr:4009, run the suite against it, summarise
 scripts/compare-pr.sh 4009                            # same steps on main and pr-4009: before | after | diff
+scripts/help-movie.sh                                 # record the "how to make a contour toolpath" help movie
 ```
 
 `compare-pr.sh` writes `out/compare/pr-N/{before,after,diff}/` and an `index.html`, served at
@@ -32,6 +33,7 @@ scripts/compare-pr.sh 4009                            # same steps on main and p
 |---|---|
 | `smoke.spec.ts` | status reaches `running`, WebGPU present, canvas not one flat colour, no panics |
 | `dovetail.spec.ts` | Camcraft#4004: a dovetail cutter has a Corner radius that keeps its value and changes the drawing. Fails on main (expected failure there via `test.fail`), passes on PR #4009. Finds the label by itself: the row that changes from End mill to Ball nose |
+| `help-contour.spec.ts` | not a test: a captioned how-to video of making a contour toolpath, with a drawn cursor; `scripts/help-movie.sh` writes `out/help/contour-path.webm` (and `.mp4` with ffmpeg on the host). Runs only with `HELP_MOVIE=1` |
 | `compare.spec.ts`, `calibrate.spec.ts` | not tests: capture for `compare-pr.sh`, and calibration shots (below); skipped unless `CAPTURE_DIR` / `CALIBRATE` is set |
 | `contour.spec.ts` | manus 1: import `fixtures/first-part.obj`, fit stock, add a 6 mm end mill, outside contour on the bottom edge loop, generate; a baseline screenshot per step. manus 1b: Post, catch the `download`, and check the G-code ring is the part's outline offset by the tool radius, with no gouges and full depth |
 
