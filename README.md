@@ -6,7 +6,11 @@ drives it by hand (Playwright MCP), or scripted Playwright tests do.
 
 ![CamCraft main running in the container](docs/camcraft-in-docker.png)
 
-Help movie, recorded by `tests/help-contour.spec.ts`: [how to make a contour toolpath](docs/help/contour-path.mp4) (1:33).
+Help movies: [how to make a contour toolpath](docs/help/contour-path.mp4) in CamCraft (1:33, `tests/help-contour.spec.ts`)
+and [how to make a square body](docs/help/solidcraft-square-body.mp4) in SolidCraft (0:54, `tests/solidcraft/square-body.spec.ts`).
+
+What CamCraft's UI redesign could add so an AI can drive it without pixel coordinates (with what egui
+0.36 already offers): [PLAYWRIGHT-AI-CONTROL.md](PLAYWRIGHT-AI-CONTROL.md).
 
 ## Pieces (`docker-compose.yml`)
 
@@ -24,6 +28,8 @@ docker compose run --rm test                          # suite against out/main
 scripts/test-pr.sh 4009                               # build pr:4009, run the suite against it, summarise
 scripts/compare-pr.sh 4009                            # same steps on main and pr-4009: before | after | diff
 scripts/help-movie.sh                                 # record the "how to make a contour toolpath" help movie
+docker compose run --rm test npx playwright test --project solidcraft   # SolidCraft manus (solidcraft.io/app)
+scripts/solidcraft-movie.sh                           # record the "make a square body in SolidCraft" help movie
 ```
 
 `compare-pr.sh` writes `out/compare/pr-N/{before,after,diff}/` and an `index.html`, served at
@@ -39,7 +45,18 @@ scripts/help-movie.sh                                 # record the "how to make 
 | `compare.spec.ts`, `calibrate.spec.ts` | not tests: capture for `compare-pr.sh`, and calibration shots (below); skipped unless `CAPTURE_DIR` / `CALIBRATE` is set |
 | `contour.spec.ts` | manus 1: import `fixtures/first-part.obj`, fit stock, add a 6 mm end mill, outside contour on the bottom edge loop, generate; a baseline screenshot per step. manus 1b: Post, catch the `download`, and check the G-code ring is the part's outline offset by the tool radius, with no gouges and full depth |
 
-Coordinates live only in `tests/lib/coords.ts` (helpers in `tests/lib/camcraft.ts`, flows in `tests/lib/flows.ts`).
+The suite has two Playwright projects. `camcraft` (the default) is everything above. `solidcraft`
+(`tests/solidcraft/`) runs only with `--project solidcraft`, against https://solidcraft.io/app or `SOLIDCRAFT_URL`:
+
+| spec | what |
+|---|---|
+| `solidcraft/square-body.spec.ts` | manus ([script](docs/manus/solidcraft-square-body.md)): New design → Create Sketch on XY → 2-Point Rectangle, typed 50 × 50 → Finish Sketch → Extrude 50 → Home view; checks one closed body with 6 planar faces, bbox (−25, −25, 0)…(25, 25, 50) and 125 000 mm³. With `HELP_MOVIE=1` it records the help movie |
+
+SolidCraft needs no coordinates: its browser API (`window.solidcraft`) names every button (`ui.handles`),
+gives screen points for planes and sketch points (`ui.at`, `ui.sketchToScreen`) and reports the dialog,
+sketch and bodies. The manus uses it only to find and check; every action is a real click or keystroke.
+
+Coordinates for CamCraft live only in `tests/lib/coords.ts` (helpers in `tests/lib/camcraft.ts`, flows in `tests/lib/flows.ts`).
 
 ### When CamCraft's layout moves
 
@@ -82,4 +99,6 @@ root besides the project path), and saves downloads such as `program.nc` in `/tm
 - The catalog's EM-0600-4FL has 15 mm of flute under an 8 mm shank: on the 15 mm plate (17 mm
   below the fitted stock top) Post refuses with shank collisions, so the test sets the flute to 25 mm.
 - The status bar text isn't in the console or the DOM; asserting on it means pixels.
+- egui handles a key on its next frame: text typed straight after Tab lands in the old field
+  (in SolidCraft, 50 Tab 50 became one 5050 mm side). Wait a couple of animation frames after a key.
 - Host networking is used throughout (localhost only). Port 8080 is often taken; this uses 8090.
