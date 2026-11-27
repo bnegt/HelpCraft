@@ -1,0 +1,4014 @@
+{
+  "auto_sync": true,
+  "board": {
+    "clearance": 0.2,
+    "cutouts": [],
+    "drill_origin": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "er": 4.4,
+    "finish": "HASL",
+    "footprints": [
+      {
+        "component": 2,
+        "id": 12,
+        "pads": [
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "1",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"1\" thru_hole rect\n\t\t(at 0 0)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "rect",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": 5,
+            "number": "1",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "2",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 2.54
+              },
+              "raw_source": "(pad \"2\" thru_hole circle\n\t\t(at 0 2.54)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "2",
+            "offset": {
+              "x": 0.0,
+              "y": 2.54
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "3",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 5.08
+              },
+              "raw_source": "(pad \"3\" thru_hole circle\n\t\t(at 0 5.08)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "3",
+            "offset": {
+              "x": 0.0,
+              "y": 5.08
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "4",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 7.62
+              },
+              "raw_source": "(pad \"4\" thru_hole circle\n\t\t(at 0 7.62)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "4",
+            "offset": {
+              "x": 0.0,
+              "y": 7.62
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "5",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 10.16
+              },
+              "raw_source": "(pad \"5\" thru_hole circle\n\t\t(at 0 10.16)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "5",
+            "offset": {
+              "x": 0.0,
+              "y": 10.16
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "6",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 12.7
+              },
+              "raw_source": "(pad \"6\" thru_hole circle\n\t\t(at 0 12.7)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "6",
+            "offset": {
+              "x": 0.0,
+              "y": 12.7
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "7",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 15.24
+              },
+              "raw_source": "(pad \"7\" thru_hole circle\n\t\t(at 0 15.24)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": 6,
+            "number": "7",
+            "offset": {
+              "x": 0.0,
+              "y": 15.24
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "8",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 17.78
+              },
+              "raw_source": "(pad \"8\" thru_hole circle\n\t\t(at 0 17.78)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": 7,
+            "number": "8",
+            "offset": {
+              "x": 0.0,
+              "y": 17.78
+            }
+          }
+        ],
+        "position": {
+          "x": 3.75,
+          "y": 21.75
+        },
+        "rotation": 90.0
+      },
+      {
+        "component": 3,
+        "id": 13,
+        "pads": [
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "1",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"1\" thru_hole rect\n\t\t(at 0 0)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "rect",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "1",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "2",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 2.54
+              },
+              "raw_source": "(pad \"2\" thru_hole circle\n\t\t(at 0 2.54)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": 9,
+            "number": "2",
+            "offset": {
+              "x": 0.0,
+              "y": 2.54
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "3",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 5.08
+              },
+              "raw_source": "(pad \"3\" thru_hole circle\n\t\t(at 0 5.08)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "3",
+            "offset": {
+              "x": 0.0,
+              "y": 5.08
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "4",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 7.62
+              },
+              "raw_source": "(pad \"4\" thru_hole circle\n\t\t(at 0 7.62)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "4",
+            "offset": {
+              "x": 0.0,
+              "y": 7.62
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "5",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 10.16
+              },
+              "raw_source": "(pad \"5\" thru_hole circle\n\t\t(at 0 10.16)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "5",
+            "offset": {
+              "x": 0.0,
+              "y": 10.16
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "6",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 12.7
+              },
+              "raw_source": "(pad \"6\" thru_hole circle\n\t\t(at 0 12.7)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": null,
+            "number": "6",
+            "offset": {
+              "x": 0.0,
+              "y": 12.7
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "7",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 15.24
+              },
+              "raw_source": "(pad \"7\" thru_hole circle\n\t\t(at 0 15.24)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": 8,
+            "number": "7",
+            "offset": {
+              "x": 0.0,
+              "y": 15.24
+            }
+          },
+          {
+            "diameter": 1.7,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "8",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 17.78
+              },
+              "raw_source": "(pad \"8\" thru_hole circle\n\t\t(at 0 17.78)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            "net": 9,
+            "number": "8",
+            "offset": {
+              "x": 0.0,
+              "y": 17.78
+            }
+          }
+        ],
+        "position": {
+          "x": 3.75,
+          "y": 34.45
+        },
+        "rotation": 90.0
+      },
+      {
+        "component": 4,
+        "id": 14,
+        "pads": [
+          {
+            "diameter": 2.4,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "1",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"1\" thru_hole roundrect\n\t\t(at 0 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t\t(roundrect_rratio 0.104167)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": 0.104167,
+              "shape": "roundrect",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            "net": 9,
+            "number": "1",
+            "offset": {
+              "x": 0.0,
+              "y": 0.0
+            }
+          },
+          {
+            "diameter": 2.4,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "2",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 3.5,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"2\" thru_hole circle\n\t\t(at 3.5 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            "net": 7,
+            "number": "2",
+            "offset": {
+              "x": 3.5,
+              "y": 0.0
+            }
+          },
+          {
+            "diameter": 2.4,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "3",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 7.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"3\" thru_hole circle\n\t\t(at 7 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            "net": 6,
+            "number": "3",
+            "offset": {
+              "x": 7.0,
+              "y": 0.0
+            }
+          },
+          {
+            "diameter": 2.4,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "4",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 10.5,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"4\" thru_hole circle\n\t\t(at 10.5 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            "net": 5,
+            "number": "4",
+            "offset": {
+              "x": 10.5,
+              "y": 0.0
+            }
+          },
+          {
+            "diameter": 2.4,
+            "geometry": {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "5",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 14.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"5\" thru_hole circle\n\t\t(at 14 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            "net": 8,
+            "number": "5",
+            "offset": {
+              "x": 14.0,
+              "y": 0.0
+            }
+          }
+        ],
+        "position": {
+          "x": 18.0,
+          "y": 4.5
+        },
+        "rotation": 180.0
+      }
+    ],
+    "height": 80.0,
+    "holes": [
+      {
+        "diameter": 3.2,
+        "id": 1,
+        "position": {
+          "x": 68.52,
+          "y": 19.21
+        }
+      }
+    ],
+    "outline": [
+      {
+        "x": 0.0,
+        "y": 65.0
+      },
+      {
+        "x": 2.0,
+        "y": 65.0
+      },
+      {
+        "x": 2.0,
+        "y": 36.0
+      },
+      {
+        "x": 0.0,
+        "y": 36.0
+      },
+      {
+        "x": 0.0,
+        "y": 0.0
+      },
+      {
+        "x": 84.5,
+        "y": 0.0
+      },
+      {
+        "x": 84.5,
+        "y": 80.0
+      },
+      {
+        "x": 0.0,
+        "y": 80.0
+      }
+    ],
+    "texts": [],
+    "thickness": 1.6,
+    "tracks": [
+      {
+        "end": {
+          "x": 7.5,
+          "y": 18.0
+        },
+        "id": 15,
+        "layer": "F.Cu",
+        "net": 5,
+        "start": {
+          "x": 3.75,
+          "y": 21.75
+        },
+        "width": 0.3
+      },
+      {
+        "end": {
+          "x": 7.5,
+          "y": 4.499999999999999
+        },
+        "id": 16,
+        "layer": "F.Cu",
+        "net": 5,
+        "start": {
+          "x": 7.5,
+          "y": 18.0
+        },
+        "width": 0.3
+      },
+      {
+        "end": {
+          "x": 11.0,
+          "y": 13.759999999999998
+        },
+        "id": 17,
+        "layer": "F.Cu",
+        "net": 6,
+        "start": {
+          "x": 18.990000000000002,
+          "y": 21.75
+        },
+        "width": 0.3
+      },
+      {
+        "end": {
+          "x": 11.0,
+          "y": 4.499999999999999
+        },
+        "id": 18,
+        "layer": "F.Cu",
+        "net": 6,
+        "start": {
+          "x": 11.0,
+          "y": 13.759999999999998
+        },
+        "width": 0.3
+      },
+      {
+        "end": {
+          "x": 14.5,
+          "y": 14.719999999999999
+        },
+        "id": 19,
+        "layer": "F.Cu",
+        "net": 7,
+        "start": {
+          "x": 21.53,
+          "y": 21.75
+        },
+        "width": 0.3
+      },
+      {
+        "end": {
+          "x": 14.5,
+          "y": 4.5
+        },
+        "id": 20,
+        "layer": "F.Cu",
+        "net": 7,
+        "start": {
+          "x": 14.5,
+          "y": 14.719999999999999
+        },
+        "width": 0.3
+      },
+      {
+        "end": {
+          "x": 7.790099999999999,
+          "y": 23.2501
+        },
+        "id": 21,
+        "layer": "B.Cu",
+        "net": 8,
+        "start": {
+          "x": 18.990000000000002,
+          "y": 34.45
+        },
+        "width": 0.8
+      },
+      {
+        "end": {
+          "x": 2.6307197631012493,
+          "y": 23.2501
+        },
+        "id": 22,
+        "layer": "B.Cu",
+        "net": 8,
+        "start": {
+          "x": 7.790099999999999,
+          "y": 23.2501
+        },
+        "width": 0.8
+      },
+      {
+        "end": {
+          "x": 2.2499,
+          "y": 22.86928023689875
+        },
+        "id": 23,
+        "layer": "B.Cu",
+        "net": 8,
+        "start": {
+          "x": 2.6307197631012493,
+          "y": 23.2501
+        },
+        "width": 0.8
+      },
+      {
+        "end": {
+          "x": 2.2499,
+          "y": 6.250099999999998
+        },
+        "id": 24,
+        "layer": "B.Cu",
+        "net": 8,
+        "start": {
+          "x": 2.2499,
+          "y": 22.86928023689875
+        },
+        "width": 0.8
+      },
+      {
+        "end": {
+          "x": 4.0,
+          "y": 4.499999999999998
+        },
+        "id": 25,
+        "layer": "B.Cu",
+        "net": 8,
+        "start": {
+          "x": 2.2499,
+          "y": 6.250099999999998
+        },
+        "width": 0.8
+      }
+    ],
+    "vias": [],
+    "width": 84.5,
+    "zones": [
+      {
+        "cutouts": [],
+        "filled": true,
+        "id": 26,
+        "layer": "B.Cu",
+        "net": 9,
+        "outline": [
+          {
+            "x": 0.5,
+            "y": 79.5
+          },
+          {
+            "x": 0.5,
+            "y": 65.5
+          },
+          {
+            "x": 2.5,
+            "y": 65.5
+          },
+          {
+            "x": 2.5,
+            "y": 35.5
+          },
+          {
+            "x": 0.5,
+            "y": 35.5
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 84.0,
+            "y": 0.5
+          },
+          {
+            "x": 84.0,
+            "y": 79.5
+          },
+          {
+            "x": 0.5,
+            "y": 79.5
+          }
+        ],
+        "pour": {
+          "islands": "remove",
+          "pad_connect": "relief",
+          "relief_gap": 0.25,
+          "spoke_width": 0.3,
+          "spokes": 4,
+          "via_connect": "solid"
+        }
+      },
+      {
+        "cutouts": [],
+        "filled": true,
+        "id": 27,
+        "layer": "F.Cu",
+        "net": 9,
+        "outline": [
+          {
+            "x": 0.5,
+            "y": 79.5
+          },
+          {
+            "x": 0.5,
+            "y": 65.5
+          },
+          {
+            "x": 2.5,
+            "y": 65.5
+          },
+          {
+            "x": 2.5,
+            "y": 35.5
+          },
+          {
+            "x": 0.5,
+            "y": 35.5
+          },
+          {
+            "x": 0.5,
+            "y": 0.5
+          },
+          {
+            "x": 84.0,
+            "y": 0.5
+          },
+          {
+            "x": 84.0,
+            "y": 79.5
+          },
+          {
+            "x": 0.5,
+            "y": 79.5
+          }
+        ],
+        "pour": {
+          "islands": "remove",
+          "pad_connect": "relief",
+          "relief_gap": 0.25,
+          "spoke_width": 0.3,
+          "spokes": 4,
+          "via_connect": "solid"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": 2,
+      "kind": "connector",
+      "library_footprint": {
+        "definition": {
+          "description": "Through hole straight pin header, 1x08, 2.54mm pitch, single row",
+          "graphics": [
+            {
+              "Line": {
+                "end": {
+                  "x": 0.0,
+                  "y": -1.38
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": -1.38
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.38,
+                  "y": -1.38
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 0.0
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.38,
+                  "y": 19.16
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 1.27
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.38,
+                  "y": 1.27
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 1.27
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.38,
+                  "y": 19.16
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 19.16
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.38,
+                  "y": 19.16
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": 1.38,
+                  "y": 1.27
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Rectangle": {
+                "end": {
+                  "x": 1.77,
+                  "y": 19.55
+                },
+                "fill": "none",
+                "layer": "F.CrtYd",
+                "start": {
+                  "x": -1.77,
+                  "y": -1.77
+                },
+                "width": 0.05
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -0.635,
+                  "y": -1.27
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.27,
+                  "y": -0.635
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.27,
+                  "y": -0.635
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.27,
+                  "y": 19.05
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.27,
+                  "y": -1.27
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -0.635,
+                  "y": -1.27
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.27,
+                  "y": 19.05
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 1.27,
+                  "y": -1.27
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.27,
+                  "y": 19.05
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 1.27,
+                  "y": 19.05
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Text": {
+                "angle": 90.0,
+                "layer": "F.Fab",
+                "position": {
+                  "x": 0.0,
+                  "y": 8.89
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "text": "${REFERENCE}"
+              }
+            }
+          ],
+          "keywords": "Through hole pin header THT 1x08 2.54mm single row",
+          "model": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "path": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step",
+            "raw_source": "(model \"${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step\"\n\t\t(offset\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t\t(scale\n\t\t\t(xyz 1 1 1)\n\t\t)\n\t\t(rotate\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t)",
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "name": "PinHeader_1x08_P2.54mm_Vertical",
+          "pads": [
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "1",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"1\" thru_hole rect\n\t\t(at 0 0)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "rect",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "2",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 2.54
+              },
+              "raw_source": "(pad \"2\" thru_hole circle\n\t\t(at 0 2.54)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "3",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 5.08
+              },
+              "raw_source": "(pad \"3\" thru_hole circle\n\t\t(at 0 5.08)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "4",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 7.62
+              },
+              "raw_source": "(pad \"4\" thru_hole circle\n\t\t(at 0 7.62)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "5",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 10.16
+              },
+              "raw_source": "(pad \"5\" thru_hole circle\n\t\t(at 0 10.16)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "6",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 12.7
+              },
+              "raw_source": "(pad \"6\" thru_hole circle\n\t\t(at 0 12.7)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "7",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 15.24
+              },
+              "raw_source": "(pad \"7\" thru_hole circle\n\t\t(at 0 15.24)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "8",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 17.78
+              },
+              "raw_source": "(pad \"8\" thru_hole circle\n\t\t(at 0 17.78)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            }
+          ],
+          "raw_source": "(footprint \"PinHeader_1x08_P2.54mm_Vertical\"\n\t(version 20260206)\n\t(generator \"kicad-footprint-generator\")\n\t(layer \"F.Cu\")\n\t(descr \"Through hole straight pin header, 1x08, 2.54mm pitch, single row\")\n\t(tags \"Through hole pin header THT 1x08 2.54mm single row\")\n\t(property \"Reference\" \"REF**\"\n\t\t(at 0 -2.38 0)\n\t\t(layer \"F.SilkS\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(property \"Value\" \"PinHeader_1x08_P2.54mm_Vertical\"\n\t\t(at 0 20.16 0)\n\t\t(layer \"F.Fab\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(property \"KiLib_Generator\" \"connector/pin_header_socket\"\n\t\t(at 0 0 0)\n\t\t(layer \"F.SilkS\")\n\t\t(hide yes)\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(attr through_hole)\n\t(duplicate_pad_numbers_are_jumpers no)\n\t(fp_line\n\t\t(start -1.38 -1.38)\n\t\t(end 0 -1.38)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 0)\n\t\t(end -1.38 -1.38)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 1.27)\n\t\t(end -1.38 19.16)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 1.27)\n\t\t(end 1.38 1.27)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 19.16)\n\t\t(end 1.38 19.16)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start 1.38 1.27)\n\t\t(end 1.38 19.16)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_rect\n\t\t(start -1.77 -1.77)\n\t\t(end 1.77 19.55)\n\t\t(stroke\n\t\t\t(width 0.05)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.CrtYd\")\n\t)\n\t(fp_line\n\t\t(start -1.27 -0.635)\n\t\t(end -0.635 -1.27)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -1.27 19.05)\n\t\t(end -1.27 -0.635)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -0.635 -1.27)\n\t\t(end 1.27 -1.27)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 1.27 -1.27)\n\t\t(end 1.27 19.05)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 1.27 19.05)\n\t\t(end -1.27 19.05)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_text user \"${REFERENCE}\"\n\t\t(at 0 8.89 90)\n\t\t(layer \"F.Fab\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(pad \"1\" thru_hole rect\n\t\t(at 0 0)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"2\" thru_hole circle\n\t\t(at 0 2.54)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"3\" thru_hole circle\n\t\t(at 0 5.08)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"4\" thru_hole circle\n\t\t(at 0 7.62)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"5\" thru_hole circle\n\t\t(at 0 10.16)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"6\" thru_hole circle\n\t\t(at 0 12.7)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"7\" thru_hole circle\n\t\t(at 0 15.24)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"8\" thru_hole circle\n\t\t(at 0 17.78)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(embedded_fonts no)\n\t(model \"${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step\"\n\t\t(offset\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t\t(scale\n\t\t\t(xyz 1 1 1)\n\t\t)\n\t\t(rotate\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t)\n)",
+          "unsupported": []
+        },
+        "library": "Connector_PinHeader_2.54mm"
+      },
+      "library_symbol": {
+        "definition": {
+          "description": "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",
+          "extends": null,
+          "footprint": "",
+          "graphics": [
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 1.27,
+                    "y": 11.43
+                  },
+                  "fill": "background",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -8.89
+                  },
+                  "width": 0.254
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -7.493
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -7.747
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -4.953
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -5.207
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -2.413
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -2.667
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 0.127
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -0.127
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 2.667
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 2.413
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 5.207
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 4.953
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 7.747
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 7.493
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 10.287
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 10.033
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            }
+          ],
+          "keywords": "connector",
+          "name": "Conn_01x08",
+          "pins": [
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_1",
+              "number": "1",
+              "position": {
+                "x": -5.08,
+                "y": -7.62
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_2",
+              "number": "2",
+              "position": {
+                "x": -5.08,
+                "y": -5.08
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_3",
+              "number": "3",
+              "position": {
+                "x": -5.08,
+                "y": -2.54
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_4",
+              "number": "4",
+              "position": {
+                "x": -5.08,
+                "y": -0.0
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_5",
+              "number": "5",
+              "position": {
+                "x": -5.08,
+                "y": 2.54
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_6",
+              "number": "6",
+              "position": {
+                "x": -5.08,
+                "y": 5.08
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_7",
+              "number": "7",
+              "position": {
+                "x": -5.08,
+                "y": 7.62
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_8",
+              "number": "8",
+              "position": {
+                "x": -5.08,
+                "y": 10.16
+              },
+              "unit": 1,
+              "visible": true
+            }
+          ],
+          "raw_source": "(symbol \"Conn_01x08\"\n\t\t(pin_names\n\t\t\t(offset 1.016)\n\t\t\t(hide yes)\n\t\t)\n\t\t(exclude_from_sim no)\n\t\t(in_bom yes)\n\t\t(on_board yes)\n\t\t(in_pos_files yes)\n\t\t(duplicate_pin_numbers_are_jumpers no)\n\t\t(property \"Reference\" \"J\"\n\t\t\t(at 0 10.16 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Value\" \"Conn_01x08\"\n\t\t\t(at 0 -12.7 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Footprint\" \"\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Datasheet\" \"\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Description\" \"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"ki_keywords\" \"connector\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"ki_fp_filters\" \"Connector*:*_1x??_*\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(symbol \"Conn_01x08_1_1\"\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 8.89)\n\t\t\t\t(end 1.27 -11.43)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.254)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type background)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 7.747)\n\t\t\t\t(end 0 7.493)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 5.207)\n\t\t\t\t(end 0 4.953)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 2.667)\n\t\t\t\t(end 0 2.413)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 0.127)\n\t\t\t\t(end 0 -0.127)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -2.413)\n\t\t\t\t(end 0 -2.667)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -4.953)\n\t\t\t\t(end 0 -5.207)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -7.493)\n\t\t\t\t(end 0 -7.747)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -10.033)\n\t\t\t\t(end 0 -10.287)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 7.62 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_1\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"1\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 5.08 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_2\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"2\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 2.54 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_3\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"3\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 0 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_4\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"4\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -2.54 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_5\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"5\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -5.08 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_6\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"6\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -7.62 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_7\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"7\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -10.16 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_8\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"8\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(embedded_fonts no)\n\t)",
+          "reference": "J",
+          "unsupported": [],
+          "value": "Conn_01x08"
+        },
+        "library": "Connector_Generic",
+        "unit": 1
+      },
+      "pins": [
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_1",
+          "net": 5,
+          "number": "1",
+          "offset": {
+            "x": -5.08,
+            "y": -7.62
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_2",
+          "net": null,
+          "number": "2",
+          "offset": {
+            "x": -5.08,
+            "y": -5.08
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_3",
+          "net": null,
+          "number": "3",
+          "offset": {
+            "x": -5.08,
+            "y": -2.54
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_4",
+          "net": null,
+          "number": "4",
+          "offset": {
+            "x": -5.08,
+            "y": -0.0
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_5",
+          "net": null,
+          "number": "5",
+          "offset": {
+            "x": -5.08,
+            "y": 2.54
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_6",
+          "net": null,
+          "number": "6",
+          "offset": {
+            "x": -5.08,
+            "y": 5.08
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_7",
+          "net": 6,
+          "number": "7",
+          "offset": {
+            "x": -5.08,
+            "y": 7.62
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_8",
+          "net": 7,
+          "number": "8",
+          "offset": {
+            "x": -5.08,
+            "y": 10.16
+          },
+          "unit": 1
+        }
+      ],
+      "position": {
+        "x": 30.0,
+        "y": 40.0
+      },
+      "reference": "PX1",
+      "rotation": 0.0,
+      "value": "X logik (EN..DIR)"
+    },
+    {
+      "id": 3,
+      "kind": "connector",
+      "library_footprint": {
+        "definition": {
+          "description": "Through hole straight pin header, 1x08, 2.54mm pitch, single row",
+          "graphics": [
+            {
+              "Line": {
+                "end": {
+                  "x": 0.0,
+                  "y": -1.38
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": -1.38
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.38,
+                  "y": -1.38
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 0.0
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.38,
+                  "y": 19.16
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 1.27
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.38,
+                  "y": 1.27
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 1.27
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.38,
+                  "y": 19.16
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.38,
+                  "y": 19.16
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.38,
+                  "y": 19.16
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": 1.38,
+                  "y": 1.27
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Rectangle": {
+                "end": {
+                  "x": 1.77,
+                  "y": 19.55
+                },
+                "fill": "none",
+                "layer": "F.CrtYd",
+                "start": {
+                  "x": -1.77,
+                  "y": -1.77
+                },
+                "width": 0.05
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -0.635,
+                  "y": -1.27
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.27,
+                  "y": -0.635
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.27,
+                  "y": -0.635
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.27,
+                  "y": 19.05
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.27,
+                  "y": -1.27
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -0.635,
+                  "y": -1.27
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 1.27,
+                  "y": 19.05
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 1.27,
+                  "y": -1.27
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.27,
+                  "y": 19.05
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 1.27,
+                  "y": 19.05
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Text": {
+                "angle": 90.0,
+                "layer": "F.Fab",
+                "position": {
+                  "x": 0.0,
+                  "y": 8.89
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "text": "${REFERENCE}"
+              }
+            }
+          ],
+          "keywords": "Through hole pin header THT 1x08 2.54mm single row",
+          "model": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "path": "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step",
+            "raw_source": "(model \"${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step\"\n\t\t(offset\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t\t(scale\n\t\t\t(xyz 1 1 1)\n\t\t)\n\t\t(rotate\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t)",
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "name": "PinHeader_1x08_P2.54mm_Vertical",
+          "pads": [
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "1",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"1\" thru_hole rect\n\t\t(at 0 0)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "rect",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "2",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 2.54
+              },
+              "raw_source": "(pad \"2\" thru_hole circle\n\t\t(at 0 2.54)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "3",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 5.08
+              },
+              "raw_source": "(pad \"3\" thru_hole circle\n\t\t(at 0 5.08)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "4",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 7.62
+              },
+              "raw_source": "(pad \"4\" thru_hole circle\n\t\t(at 0 7.62)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "5",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 10.16
+              },
+              "raw_source": "(pad \"5\" thru_hole circle\n\t\t(at 0 10.16)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "6",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 12.7
+              },
+              "raw_source": "(pad \"6\" thru_hole circle\n\t\t(at 0 12.7)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "7",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 15.24
+              },
+              "raw_source": "(pad \"7\" thru_hole circle\n\t\t(at 0 15.24)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "8",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 17.78
+              },
+              "raw_source": "(pad \"8\" thru_hole circle\n\t\t(at 0 17.78)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 1.7,
+                "y": 1.7
+              }
+            }
+          ],
+          "raw_source": "(footprint \"PinHeader_1x08_P2.54mm_Vertical\"\n\t(version 20260206)\n\t(generator \"kicad-footprint-generator\")\n\t(layer \"F.Cu\")\n\t(descr \"Through hole straight pin header, 1x08, 2.54mm pitch, single row\")\n\t(tags \"Through hole pin header THT 1x08 2.54mm single row\")\n\t(property \"Reference\" \"REF**\"\n\t\t(at 0 -2.38 0)\n\t\t(layer \"F.SilkS\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(property \"Value\" \"PinHeader_1x08_P2.54mm_Vertical\"\n\t\t(at 0 20.16 0)\n\t\t(layer \"F.Fab\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(property \"KiLib_Generator\" \"connector/pin_header_socket\"\n\t\t(at 0 0 0)\n\t\t(layer \"F.SilkS\")\n\t\t(hide yes)\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(attr through_hole)\n\t(duplicate_pad_numbers_are_jumpers no)\n\t(fp_line\n\t\t(start -1.38 -1.38)\n\t\t(end 0 -1.38)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 0)\n\t\t(end -1.38 -1.38)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 1.27)\n\t\t(end -1.38 19.16)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 1.27)\n\t\t(end 1.38 1.27)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.38 19.16)\n\t\t(end 1.38 19.16)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start 1.38 1.27)\n\t\t(end 1.38 19.16)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_rect\n\t\t(start -1.77 -1.77)\n\t\t(end 1.77 19.55)\n\t\t(stroke\n\t\t\t(width 0.05)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.CrtYd\")\n\t)\n\t(fp_line\n\t\t(start -1.27 -0.635)\n\t\t(end -0.635 -1.27)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -1.27 19.05)\n\t\t(end -1.27 -0.635)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -0.635 -1.27)\n\t\t(end 1.27 -1.27)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 1.27 -1.27)\n\t\t(end 1.27 19.05)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 1.27 19.05)\n\t\t(end -1.27 19.05)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_text user \"${REFERENCE}\"\n\t\t(at 0 8.89 90)\n\t\t(layer \"F.Fab\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(pad \"1\" thru_hole rect\n\t\t(at 0 0)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"2\" thru_hole circle\n\t\t(at 0 2.54)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"3\" thru_hole circle\n\t\t(at 0 5.08)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"4\" thru_hole circle\n\t\t(at 0 7.62)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"5\" thru_hole circle\n\t\t(at 0 10.16)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"6\" thru_hole circle\n\t\t(at 0 12.7)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"7\" thru_hole circle\n\t\t(at 0 15.24)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"8\" thru_hole circle\n\t\t(at 0 17.78)\n\t\t(size 1.7 1.7)\n\t\t(drill 1)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(embedded_fonts no)\n\t(model \"${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step\"\n\t\t(offset\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t\t(scale\n\t\t\t(xyz 1 1 1)\n\t\t)\n\t\t(rotate\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t)\n)",
+          "unsupported": []
+        },
+        "library": "Connector_PinHeader_2.54mm"
+      },
+      "library_symbol": {
+        "definition": {
+          "description": "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",
+          "extends": null,
+          "footprint": "",
+          "graphics": [
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 1.27,
+                    "y": 11.43
+                  },
+                  "fill": "background",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -8.89
+                  },
+                  "width": 0.254
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -7.493
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -7.747
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -4.953
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -5.207
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -2.413
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -2.667
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 0.127
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -0.127
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 2.667
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 2.413
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 5.207
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 4.953
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 7.747
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 7.493
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 10.287
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 10.033
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            }
+          ],
+          "keywords": "connector",
+          "name": "Conn_01x08",
+          "pins": [
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_1",
+              "number": "1",
+              "position": {
+                "x": -5.08,
+                "y": -7.62
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_2",
+              "number": "2",
+              "position": {
+                "x": -5.08,
+                "y": -5.08
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_3",
+              "number": "3",
+              "position": {
+                "x": -5.08,
+                "y": -2.54
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_4",
+              "number": "4",
+              "position": {
+                "x": -5.08,
+                "y": -0.0
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_5",
+              "number": "5",
+              "position": {
+                "x": -5.08,
+                "y": 2.54
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_6",
+              "number": "6",
+              "position": {
+                "x": -5.08,
+                "y": 5.08
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_7",
+              "number": "7",
+              "position": {
+                "x": -5.08,
+                "y": 7.62
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_8",
+              "number": "8",
+              "position": {
+                "x": -5.08,
+                "y": 10.16
+              },
+              "unit": 1,
+              "visible": true
+            }
+          ],
+          "raw_source": "(symbol \"Conn_01x08\"\n\t\t(pin_names\n\t\t\t(offset 1.016)\n\t\t\t(hide yes)\n\t\t)\n\t\t(exclude_from_sim no)\n\t\t(in_bom yes)\n\t\t(on_board yes)\n\t\t(in_pos_files yes)\n\t\t(duplicate_pin_numbers_are_jumpers no)\n\t\t(property \"Reference\" \"J\"\n\t\t\t(at 0 10.16 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Value\" \"Conn_01x08\"\n\t\t\t(at 0 -12.7 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Footprint\" \"\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Datasheet\" \"\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Description\" \"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"ki_keywords\" \"connector\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"ki_fp_filters\" \"Connector*:*_1x??_*\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(symbol \"Conn_01x08_1_1\"\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 8.89)\n\t\t\t\t(end 1.27 -11.43)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.254)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type background)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 7.747)\n\t\t\t\t(end 0 7.493)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 5.207)\n\t\t\t\t(end 0 4.953)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 2.667)\n\t\t\t\t(end 0 2.413)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 0.127)\n\t\t\t\t(end 0 -0.127)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -2.413)\n\t\t\t\t(end 0 -2.667)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -4.953)\n\t\t\t\t(end 0 -5.207)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -7.493)\n\t\t\t\t(end 0 -7.747)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -10.033)\n\t\t\t\t(end 0 -10.287)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 7.62 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_1\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"1\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 5.08 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_2\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"2\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 2.54 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_3\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"3\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 0 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_4\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"4\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -2.54 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_5\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"5\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -5.08 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_6\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"6\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -7.62 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_7\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"7\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -10.16 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_8\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"8\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(embedded_fonts no)\n\t)",
+          "reference": "J",
+          "unsupported": [],
+          "value": "Conn_01x08"
+        },
+        "library": "Connector_Generic",
+        "unit": 1
+      },
+      "pins": [
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_1",
+          "net": null,
+          "number": "1",
+          "offset": {
+            "x": -5.08,
+            "y": -7.62
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_2",
+          "net": 9,
+          "number": "2",
+          "offset": {
+            "x": -5.08,
+            "y": -5.08
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_3",
+          "net": null,
+          "number": "3",
+          "offset": {
+            "x": -5.08,
+            "y": -2.54
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_4",
+          "net": null,
+          "number": "4",
+          "offset": {
+            "x": -5.08,
+            "y": -0.0
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_5",
+          "net": null,
+          "number": "5",
+          "offset": {
+            "x": -5.08,
+            "y": 2.54
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_6",
+          "net": null,
+          "number": "6",
+          "offset": {
+            "x": -5.08,
+            "y": 5.08
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_7",
+          "net": 8,
+          "number": "7",
+          "offset": {
+            "x": -5.08,
+            "y": 7.62
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_8",
+          "net": 9,
+          "number": "8",
+          "offset": {
+            "x": -5.08,
+            "y": 10.16
+          },
+          "unit": 1
+        }
+      ],
+      "position": {
+        "x": 30.0,
+        "y": 70.0
+      },
+      "reference": "PX2",
+      "rotation": 0.0,
+      "value": "X kraft (VMOT..GND)"
+    },
+    {
+      "id": 4,
+      "kind": "connector",
+      "library_footprint": {
+        "definition": {
+          "description": "Terminal Block Phoenix PT-1,5-5-3.5-H, 5 pins, pitch 3.5mm, size 17.5x7.6mm, drill diameter 1.2mm, pad diameter 2.4mm, ",
+          "graphics": [
+            {
+              "Line": {
+                "end": {
+                  "x": 15.87,
+                  "y": -3.22
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.87,
+                  "y": -3.22
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.87,
+                  "y": 3.0
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.87,
+                  "y": 3.0
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.87,
+                  "y": 4.1
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.87,
+                  "y": 4.1
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.87,
+                  "y": -3.22
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -1.87,
+                  "y": 4.62
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.87,
+                  "y": 4.62
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": -0.3,
+                  "y": 4.62
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.87,
+                  "y": 4.62
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": 15.87,
+                  "y": -3.22
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 0.3,
+                  "y": 4.62
+                },
+                "layer": "F.SilkS",
+                "start": {
+                  "x": 15.87,
+                  "y": 4.62
+                },
+                "width": 0.12
+              }
+            },
+            {
+              "Polyline": {
+                "fill": "solid",
+                "layer": "F.SilkS",
+                "points": [
+                  {
+                    "x": 0.0,
+                    "y": 4.62
+                  },
+                  {
+                    "x": 0.44,
+                    "y": 5.23
+                  },
+                  {
+                    "x": -0.44,
+                    "y": 5.23
+                  }
+                ],
+                "width": 0.12
+              }
+            },
+            {
+              "Rectangle": {
+                "end": {
+                  "x": 16.25,
+                  "y": 5.0
+                },
+                "fill": "none",
+                "layer": "F.CrtYd",
+                "start": {
+                  "x": -2.25,
+                  "y": -3.6
+                },
+                "width": 0.05
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.75,
+                  "y": -3.1
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.75,
+                  "y": -3.1
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.75,
+                  "y": 3.0
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.75,
+                  "y": 3.0
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.75,
+                  "y": -3.1
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.75,
+                  "y": 4.1
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.75,
+                  "y": 4.1
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.75,
+                  "y": 4.1
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.75,
+                  "y": 4.1
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": -1.35,
+                  "y": 4.5
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.138,
+                  "y": 0.955
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 0.955,
+                  "y": -1.138
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -0.955,
+                  "y": 1.138
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 1.138,
+                  "y": -0.955
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 2.362,
+                  "y": 0.955
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 4.455,
+                  "y": -1.138
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 2.545,
+                  "y": 1.138
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 4.638,
+                  "y": -0.955
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 5.862,
+                  "y": 0.955
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 7.955,
+                  "y": -1.138
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 6.045,
+                  "y": 1.138
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 8.138,
+                  "y": -0.955
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 9.362,
+                  "y": 0.955
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 11.455,
+                  "y": -1.138
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 9.545,
+                  "y": 1.138
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 11.638,
+                  "y": -0.955
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 12.862,
+                  "y": 0.955
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 14.955,
+                  "y": -1.138
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 13.045,
+                  "y": 1.138
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 15.138,
+                  "y": -0.955
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": 15.75,
+                  "y": 4.5
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 15.75,
+                  "y": -3.1
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Line": {
+                "end": {
+                  "x": -1.35,
+                  "y": 4.5
+                },
+                "layer": "F.Fab",
+                "start": {
+                  "x": 15.75,
+                  "y": 4.5
+                },
+                "width": 0.1
+              }
+            },
+            {
+              "Circle": {
+                "center": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "fill": "none",
+                "layer": "F.Fab",
+                "radius": 1.5,
+                "width": 0.1
+              }
+            },
+            {
+              "Circle": {
+                "center": {
+                  "x": 3.5,
+                  "y": 0.0
+                },
+                "fill": "none",
+                "layer": "F.Fab",
+                "radius": 1.5,
+                "width": 0.1
+              }
+            },
+            {
+              "Circle": {
+                "center": {
+                  "x": 7.0,
+                  "y": 0.0
+                },
+                "fill": "none",
+                "layer": "F.Fab",
+                "radius": 1.5,
+                "width": 0.1
+              }
+            },
+            {
+              "Circle": {
+                "center": {
+                  "x": 10.5,
+                  "y": 0.0
+                },
+                "fill": "none",
+                "layer": "F.Fab",
+                "radius": 1.5,
+                "width": 0.1
+              }
+            },
+            {
+              "Circle": {
+                "center": {
+                  "x": 14.0,
+                  "y": 0.0
+                },
+                "fill": "none",
+                "layer": "F.Fab",
+                "radius": 1.5,
+                "width": 0.1
+              }
+            },
+            {
+              "Text": {
+                "angle": 0.0,
+                "layer": "F.Fab",
+                "position": {
+                  "x": 7.0,
+                  "y": 2.4
+                },
+                "size": {
+                  "x": 1.0,
+                  "y": 1.0
+                },
+                "text": "${REFERENCE}"
+              }
+            }
+          ],
+          "keywords": "THT Terminal Block Phoenix PT-1,5-5-3.5-H pitch 3.5mm size 17.5x7.6mm drill 1.2mm pad 2.4mm",
+          "model": {
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "path": "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal.step",
+            "raw_source": "(model \"${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal.step\"\n\t\t(offset\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t\t(scale\n\t\t\t(xyz 1 1 1)\n\t\t)\n\t\t(rotate\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t)",
+            "rotate": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "name": "TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal",
+          "pads": [
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "1",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 0.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"1\" thru_hole roundrect\n\t\t(at 0 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t\t(roundrect_rratio 0.104167)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": 0.104167,
+              "shape": "roundrect",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "2",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 3.5,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"2\" thru_hole circle\n\t\t(at 3.5 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "3",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 7.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"3\" thru_hole circle\n\t\t(at 7 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "4",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 10.5,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"4\" thru_hole circle\n\t\t(at 10.5 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            },
+            {
+              "drill": {
+                "offset": {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                "size": {
+                  "x": 1.2,
+                  "y": 1.2
+                }
+              },
+              "layers": [
+                "*.Cu",
+                "*.Mask"
+              ],
+              "number": "5",
+              "pad_type": "thru_hole",
+              "position": {
+                "x": 14.0,
+                "y": 0.0
+              },
+              "raw_source": "(pad \"5\" thru_hole circle\n\t\t(at 14 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)",
+              "rotation": 0.0,
+              "roundrect_ratio": null,
+              "shape": "circle",
+              "size": {
+                "x": 2.4,
+                "y": 2.4
+              }
+            }
+          ],
+          "raw_source": "(footprint \"TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal\"\n\t(version 20260206)\n\t(generator \"kicad-footprint-generator\")\n\t(layer \"F.Cu\")\n\t(descr \"Terminal Block Phoenix PT-1,5-5-3.5-H, 5 pins, pitch 3.5mm, size 17.5x7.6mm, drill diameter 1.2mm, pad diameter 2.4mm, \")\n\t(tags \"THT Terminal Block Phoenix PT-1,5-5-3.5-H pitch 3.5mm size 17.5x7.6mm drill 1.2mm pad 2.4mm\")\n\t(property \"Reference\" \"REF**\"\n\t\t(at 7 -4.22 0)\n\t\t(layer \"F.SilkS\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(property \"Value\" \"TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal\"\n\t\t(at 7 5.62 0)\n\t\t(layer \"F.Fab\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(property \"KiLib_Generator\" \"terminal_block/Phoenix\"\n\t\t(at 0 0 0)\n\t\t(layer \"F.SilkS\")\n\t\t(hide yes)\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(attr through_hole)\n\t(duplicate_pad_numbers_are_jumpers no)\n\t(fp_line\n\t\t(start -1.87 -3.22)\n\t\t(end 15.87 -3.22)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.87 3)\n\t\t(end 15.87 3)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.87 4.1)\n\t\t(end 15.87 4.1)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -1.87 4.62)\n\t\t(end -1.87 -3.22)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start -0.3 4.62)\n\t\t(end -1.87 4.62)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start 15.87 -3.22)\n\t\t(end 15.87 4.62)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_line\n\t\t(start 15.87 4.62)\n\t\t(end 0.3 4.62)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_poly\n\t\t(pts\n\t\t\t(xy 0 4.62)\n\t\t\t(xy 0.44 5.23)\n\t\t\t(xy -0.44 5.23)\n\t\t)\n\t\t(stroke\n\t\t\t(width 0.12)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill yes)\n\t\t(layer \"F.SilkS\")\n\t)\n\t(fp_rect\n\t\t(start -2.25 -3.6)\n\t\t(end 16.25 5)\n\t\t(stroke\n\t\t\t(width 0.05)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.CrtYd\")\n\t)\n\t(fp_line\n\t\t(start -1.75 -3.1)\n\t\t(end 15.75 -3.1)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -1.75 3)\n\t\t(end 15.75 3)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -1.75 4.1)\n\t\t(end -1.75 -3.1)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -1.75 4.1)\n\t\t(end 15.75 4.1)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start -1.35 4.5)\n\t\t(end -1.75 4.1)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 0.955 -1.138)\n\t\t(end -1.138 0.955)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 1.138 -0.955)\n\t\t(end -0.955 1.138)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 4.455 -1.138)\n\t\t(end 2.362 0.955)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 4.638 -0.955)\n\t\t(end 2.545 1.138)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 7.955 -1.138)\n\t\t(end 5.862 0.955)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 8.138 -0.955)\n\t\t(end 6.045 1.138)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 11.455 -1.138)\n\t\t(end 9.362 0.955)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 11.638 -0.955)\n\t\t(end 9.545 1.138)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 14.955 -1.138)\n\t\t(end 12.862 0.955)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 15.138 -0.955)\n\t\t(end 13.045 1.138)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 15.75 -3.1)\n\t\t(end 15.75 4.5)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_line\n\t\t(start 15.75 4.5)\n\t\t(end -1.35 4.5)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_circle\n\t\t(center 0 0)\n\t\t(end 1.5 0)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_circle\n\t\t(center 3.5 0)\n\t\t(end 5 0)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_circle\n\t\t(center 7 0)\n\t\t(end 8.5 0)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_circle\n\t\t(center 10.5 0)\n\t\t(end 12 0)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_circle\n\t\t(center 14 0)\n\t\t(end 15.5 0)\n\t\t(stroke\n\t\t\t(width 0.1)\n\t\t\t(type solid)\n\t\t)\n\t\t(fill no)\n\t\t(layer \"F.Fab\")\n\t)\n\t(fp_text user \"${REFERENCE}\"\n\t\t(at 7 2.4 0)\n\t\t(layer \"F.Fab\")\n\t\t(effects\n\t\t\t(font\n\t\t\t\t(size 1 1)\n\t\t\t\t(thickness 0.15)\n\t\t\t)\n\t\t)\n\t)\n\t(pad \"1\" thru_hole roundrect\n\t\t(at 0 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t\t(roundrect_rratio 0.104167)\n\t)\n\t(pad \"2\" thru_hole circle\n\t\t(at 3.5 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"3\" thru_hole circle\n\t\t(at 7 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"4\" thru_hole circle\n\t\t(at 10.5 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(pad \"5\" thru_hole circle\n\t\t(at 14 0)\n\t\t(size 2.4 2.4)\n\t\t(drill 1.2)\n\t\t(layers \"*.Cu\" \"*.Mask\")\n\t\t(remove_unused_layers no)\n\t)\n\t(embedded_fonts no)\n\t(model \"${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal.step\"\n\t\t(offset\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t\t(scale\n\t\t\t(xyz 1 1 1)\n\t\t)\n\t\t(rotate\n\t\t\t(xyz 0 0 0)\n\t\t)\n\t)\n)",
+          "unsupported": []
+        },
+        "library": "TerminalBlock_Phoenix"
+      },
+      "library_symbol": {
+        "definition": {
+          "description": "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",
+          "extends": null,
+          "footprint": "",
+          "graphics": [
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 1.27,
+                    "y": 6.35
+                  },
+                  "fill": "background",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -6.35
+                  },
+                  "width": 0.254
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -4.953
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -5.207
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": -2.413
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -2.667
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 0.127
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": -0.127
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 2.667
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 2.413
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            },
+            {
+              "body_style": 1,
+              "primitive": {
+                "Rectangle": {
+                  "end": {
+                    "x": 0.0,
+                    "y": 5.207
+                  },
+                  "fill": "none",
+                  "layer": "",
+                  "start": {
+                    "x": -1.27,
+                    "y": 4.953
+                  },
+                  "width": 0.1524
+                }
+              },
+              "unit": 1
+            }
+          ],
+          "keywords": "connector",
+          "name": "Conn_01x05",
+          "pins": [
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_1",
+              "number": "1",
+              "position": {
+                "x": -5.08,
+                "y": -5.08
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_2",
+              "number": "2",
+              "position": {
+                "x": -5.08,
+                "y": -2.54
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_3",
+              "number": "3",
+              "position": {
+                "x": -5.08,
+                "y": -0.0
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_4",
+              "number": "4",
+              "position": {
+                "x": -5.08,
+                "y": 2.54
+              },
+              "unit": 1,
+              "visible": true
+            },
+            {
+              "angle": 0.0,
+              "body_style": 1,
+              "electrical_type": "passive",
+              "graphical_style": "line",
+              "length": 3.81,
+              "name": "Pin_5",
+              "number": "5",
+              "position": {
+                "x": -5.08,
+                "y": 5.08
+              },
+              "unit": 1,
+              "visible": true
+            }
+          ],
+          "raw_source": "(symbol \"Conn_01x05\"\n\t\t(pin_names\n\t\t\t(offset 1.016)\n\t\t\t(hide yes)\n\t\t)\n\t\t(exclude_from_sim no)\n\t\t(in_bom yes)\n\t\t(on_board yes)\n\t\t(in_pos_files yes)\n\t\t(duplicate_pin_numbers_are_jumpers no)\n\t\t(property \"Reference\" \"J\"\n\t\t\t(at 0 7.62 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Value\" \"Conn_01x05\"\n\t\t\t(at 0 -7.62 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Footprint\" \"\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Datasheet\" \"\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"Description\" \"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"ki_keywords\" \"connector\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(property \"ki_fp_filters\" \"Connector*:*_1x??_*\"\n\t\t\t(at 0 0 0)\n\t\t\t(show_name no)\n\t\t\t(do_not_autoplace no)\n\t\t\t(hide yes)\n\t\t\t(effects\n\t\t\t\t(font\n\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(symbol \"Conn_01x05_1_1\"\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 6.35)\n\t\t\t\t(end 1.27 -6.35)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.254)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type background)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 5.207)\n\t\t\t\t(end 0 4.953)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 2.667)\n\t\t\t\t(end 0 2.413)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 0.127)\n\t\t\t\t(end 0 -0.127)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -2.413)\n\t\t\t\t(end 0 -2.667)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(rectangle\n\t\t\t\t(start -1.27 -4.953)\n\t\t\t\t(end 0 -5.207)\n\t\t\t\t(stroke\n\t\t\t\t\t(width 0.1524)\n\t\t\t\t\t(type default)\n\t\t\t\t)\n\t\t\t\t(fill\n\t\t\t\t\t(type none)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 5.08 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_1\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"1\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 2.54 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_2\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"2\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 0 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_3\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"3\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -2.54 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_4\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"4\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t\t(pin passive line\n\t\t\t\t(at -5.08 -5.08 0)\n\t\t\t\t(length 3.81)\n\t\t\t\t(name \"Pin_5\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t\t(number \"5\"\n\t\t\t\t\t(effects\n\t\t\t\t\t\t(font\n\t\t\t\t\t\t\t(size 1.27 1.27)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t)\n\t\t)\n\t\t(embedded_fonts no)\n\t)",
+          "reference": "J",
+          "unsupported": [],
+          "value": "Conn_01x05"
+        },
+        "library": "Connector_Generic",
+        "unit": 1
+      },
+      "pins": [
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_1",
+          "net": 9,
+          "number": "1",
+          "offset": {
+            "x": -5.08,
+            "y": -5.08
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_2",
+          "net": 7,
+          "number": "2",
+          "offset": {
+            "x": -5.08,
+            "y": -2.54
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_3",
+          "net": 6,
+          "number": "3",
+          "offset": {
+            "x": -5.08,
+            "y": -0.0
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_4",
+          "net": 5,
+          "number": "4",
+          "offset": {
+            "x": -5.08,
+            "y": 2.54
+          },
+          "unit": 1
+        },
+        {
+          "direction": 0.0,
+          "electrical_type": "passive",
+          "name": "Pin_5",
+          "net": 8,
+          "number": "5",
+          "offset": {
+            "x": -5.08,
+            "y": 5.08
+          },
+          "unit": 1
+        }
+      ],
+      "position": {
+        "x": 80.0,
+        "y": 55.0
+      },
+      "reference": "JX",
+      "rotation": 0.0,
+      "value": "X: 5V EN STEP DIR GND"
+    }
+  ],
+  "drawing_frame": {
+    "fields": [
+      {
+        "label": "Title",
+        "template": "${title}"
+      },
+      {
+        "label": "Revision",
+        "template": "${revision}"
+      },
+      {
+        "label": "Company",
+        "template": "${company}"
+      },
+      {
+        "label": "Date",
+        "template": "${date}"
+      },
+      {
+        "label": "Design",
+        "template": "${name}"
+      }
+    ],
+    "show_zones": true
+  },
+  "drawn_wires": [],
+  "format": "pcbcraft",
+  "graphics": [],
+  "labels": [],
+  "layer_naming": "stackup",
+  "library": {
+    "footprints": [],
+    "notices": [],
+    "parts": [],
+    "symbols": []
+  },
+  "name": "Untitled circuit",
+  "net_classes": [
+    {
+      "clearance": 0.25,
+      "fast": false,
+      "id": 10,
+      "name": "Kraft",
+      "nets": [
+        8,
+        9
+      ],
+      "width": 0.8
+    },
+    {
+      "clearance": 0.25,
+      "fast": false,
+      "id": 11,
+      "name": "Signal",
+      "nets": [
+        5,
+        6,
+        7
+      ],
+      "width": 0.3
+    }
+  ],
+  "nets": [
+    {
+      "id": 5,
+      "name": "X-EN"
+    },
+    {
+      "id": 6,
+      "name": "X-STEP"
+    },
+    {
+      "id": 7,
+      "name": "X-DIR"
+    },
+    {
+      "id": 8,
+      "name": "+5V"
+    },
+    {
+      "id": 9,
+      "name": "GND"
+    }
+  ],
+  "no_connects": [
+    {
+      "id": 28,
+      "pin": {
+        "component": 2,
+        "pin": "2"
+      }
+    },
+    {
+      "id": 29,
+      "pin": {
+        "component": 2,
+        "pin": "3"
+      }
+    },
+    {
+      "id": 30,
+      "pin": {
+        "component": 2,
+        "pin": "4"
+      }
+    },
+    {
+      "id": 31,
+      "pin": {
+        "component": 2,
+        "pin": "5"
+      }
+    },
+    {
+      "id": 32,
+      "pin": {
+        "component": 2,
+        "pin": "6"
+      }
+    },
+    {
+      "id": 33,
+      "pin": {
+        "component": 3,
+        "pin": "1"
+      }
+    },
+    {
+      "id": 34,
+      "pin": {
+        "component": 3,
+        "pin": "3"
+      }
+    },
+    {
+      "id": 35,
+      "pin": {
+        "component": 3,
+        "pin": "4"
+      }
+    },
+    {
+      "id": 36,
+      "pin": {
+        "component": 3,
+        "pin": "5"
+      }
+    },
+    {
+      "id": 37,
+      "pin": {
+        "component": 3,
+        "pin": "6"
+      }
+    }
+  ],
+  "panel": {
+    "columns": 1,
+    "enabled": false,
+    "pitch_x": 0.0,
+    "pitch_y": 0.0,
+    "rail": 5.0,
+    "rows": 1,
+    "separation": "tab",
+    "tab_channel": 1.8
+  },
+  "unit": "mm",
+  "version": 1,
+  "wires": []
+}

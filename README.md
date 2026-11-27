@@ -9,6 +9,9 @@ drives it by hand (Playwright MCP), or scripted Playwright tests do.
 Help movies: [how to make a contour toolpath](docs/help/contour-path.mp4) in CamCraft (1:33, `tests/help-contour.spec.ts`)
 and [how to make a square body](docs/help/solidcraft-square-body.mp4) in SolidCraft (0:54, `tests/solidcraft/square-body.spec.ts`).
 
+PCBCraft manuses: [build the RampsTerminalHat](docs/manus/pcbcraft/README.md) in four multi-step manuses
+(board outline → schematic and nets → placement, routing and pours → fabrication outputs), checked through PCBCraft's MCP.
+
 What CamCraft's UI redesign could add so an AI can drive it without pixel coordinates (with what egui
 0.36 already offers): [PLAYWRIGHT-AI-CONTROL.md](PLAYWRIGHT-AI-CONTROL.md).
 
