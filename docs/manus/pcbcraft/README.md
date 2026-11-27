@@ -5,15 +5,22 @@ The reference is [bnegt/RampsTerminalHat](https://github.com/bnegt/RampsTerminal
 It was made entirely with PCBCraft. Every number here comes from its design file,
 `hardware/RampsTerminalHat.pcbcraft`, so you can compare your board with it at each stage.
 
-| # | Manus | You end with | Steps |
-|---|---|---|---|
-| 1 | [Board outline](1-board-outline.md) | An 84.5 × 80 mm board with the MOSFET notch and the M3 hole | 4 |
-| 2 | [Schematic and nets](2-schematic-nets.md) | 20 connectors, 28 nets, two net classes, a clean ERC | 6 |
-| 3 | [Placement, routing and pours](3-placement-routing.md) | Footprints in place, signals routed on F.Cu and 5 V on B.Cu, GND poured, a clean DRC | 7 |
-| 4 | [Fabrication outputs](4-fabrication.md) | Gerbers, drills, a JLCPCB zip, a BOM and a fit check | 6 |
+| # | Manus | You end with | Steps | Movie |
+|---|---|---|---|---|
+| 1 | [Board outline](1-board-outline.md) | An 84.5 × 80 mm board with the MOSFET notch and the M3 hole | 4 | [0:40](../../help/pcbcraft-manus-1-board-outline.mp4) |
+| 2 | [Schematic and nets](2-schematic-nets.md) | 20 connectors, 28 nets, two net classes, a clean ERC | 6 | [0:55](../../help/pcbcraft-manus-2-schematic-nets.mp4) |
+| 3 | [Placement, routing and pours](3-placement-routing.md) | Footprints in place, signals routed on F.Cu and 5 V on B.Cu, GND poured, a clean DRC | 7 | [1:01](../../help/pcbcraft-manus-3-placement-routing.mp4) |
+| 4 | [Fabrication outputs](4-fabrication.md) | Gerbers, drills, a JLCPCB zip, a BOM and a fit check | 6 | [1:00](../../help/pcbcraft-manus-4-fabrication.mp4) |
 
 Each manus takes over from where the one before it ends. Do them in order on one design and save
 after each one (`.pcbcraft`).
+
+## Help movies
+
+Each manus has a captioned help movie of the real PCBCraft desktop window doing its steps. The tab and
+button clicks are real mouse clicks; the steps run through the same engine commands as the manus. Record
+them again with `scripts/pcbcraft-movies.sh` (Docker: Xvfb, the PCBCraft desktop app with `--control`,
+`pcbcraft-movies/movie.py` driving it, ffmpeg recording, `burn.py` adding the captions).
 
 ## How to read a manus
 
@@ -36,13 +43,16 @@ The engine commands for the X-axis slice were run start to finish against PCBCra
 84.500 × 80.000 × 1.600 mm, with the same drill sizes as the reference. The result is saved here as
 [`x-axis-slice.pcbcraft`](x-axis-slice.pcbcraft):
 
-![X-axis slice, PCB view](x-axis-slice.png)
+![X-axis slice in the Layout tab](x-axis-slice.png)
 
 The desktop keys and buttons are from PCBCraft's own docs. They were not clicked through in a test.
 
 ## Conventions
 
-- Millimetres, board origin top left, **Y grows downward** (the screenshot above: JX at y = 4.5 is at the top).
+- Millimetres, board origin bottom left, **Y grows upward**, as in the Layout tab (the screenshot above: JX at y = 4.5 is
+  at the bottom). The Gerbers use the same coordinates, so the board you get back looks like the Layout tab seen from above.
+  PCBCraft's MCP `screenshot` preview and the Manufacture tab's plot viewer draw it upside down (Y downward).
+  The data is the same; only those two views are flipped.
 - Component IDs in the engine commands (`component: 2`, `footprint: 12`) are what *your* design returns.
   Each command answers with the new ID, so use that ID instead of the one printed here.
 - Library paths are the KiCad libraries PCBCraft finds on the host (`library_catalog`), here

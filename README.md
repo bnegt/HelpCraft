@@ -8,6 +8,9 @@ drives it by hand (Playwright MCP), or scripted Playwright tests do.
 
 Help movies: [how to make a contour toolpath](docs/help/contour-path.mp4) in CamCraft (1:33, `tests/help-contour.spec.ts`)
 and [how to make a square body](docs/help/solidcraft-square-body.mp4) in SolidCraft (0:54, `tests/solidcraft/square-body.spec.ts`).
+PCBCraft, one movie per manus: [outline](docs/help/pcbcraft-manus-1-board-outline.mp4) (0:40) ·
+[schematic](docs/help/pcbcraft-manus-2-schematic-nets.mp4) (0:55) · [layout](docs/help/pcbcraft-manus-3-placement-routing.mp4) (1:01) ·
+[fabrication](docs/help/pcbcraft-manus-4-fabrication.mp4) (1:00) (`scripts/pcbcraft-movies.sh`).
 
 PCBCraft manuses: [build the RampsTerminalHat](docs/manus/pcbcraft/README.md) in four multi-step manuses
 (board outline → schematic and nets → placement, routing and pours → fabrication outputs), checked through PCBCraft's MCP.

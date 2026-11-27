@@ -4,6 +4,7 @@ An 84.5 × 80 mm two-layer board. It has a notch on the left edge so it clears t
 on the RAMPS, and one M3 mounting hole. The board stops short of the F1/F2 fuses by the USB connector,
 so they need no cutout.
 
+- Help movie: [`docs/help/pcbcraft-manus-1-board-outline.mp4`](../../help/pcbcraft-manus-1-board-outline.mp4) (0:40), the real PCBCraft window
 - Starts from: nothing
 - Ends with: the outline, the hole, the board settings
 - Reference: RampsTerminalHat `board.outline`, `board.holes`, README *Features*
@@ -30,7 +31,7 @@ Save as `RampsTerminalHat.pcbcraft`.
 ## Check the stage
 
 - `design_summary` shows `board: {width: 84.5, height: 80, layers: 2, outline_kind: "polygon"}`.
-- PCB view: the notch is on the **left** edge. It runs from about 45 % to 81 % of the way down, because Y grows downward.
+- Layout tab: the notch is on the **left** edge. It runs from about 45 % to 81 % of the way up, because Y grows upward.
 
 ## Things to know
 

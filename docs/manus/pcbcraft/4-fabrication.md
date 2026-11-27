@@ -4,6 +4,7 @@ This manus turns the routed board into files a fab can make it from. It writes G
 packs the upload zip for JLCPCB, and makes a BOM you can buy from. It also checks the fit on the RAMPS before
 anything is ordered.
 
+- Help movie: [`docs/help/pcbcraft-manus-4-fabrication.mp4`](../../help/pcbcraft-manus-4-fabrication.mp4) (1:00), the real PCBCraft window
 - Starts from: manus 3 (routed, DRC clean)
 - Ends with: `gerber/`, `fabrication/RampsTerminalHat-JLCPCB.zip`, `fabrication/BOM-electrokit.csv`, a fit check
 - Reference: RampsTerminalHat `gerber/`, `fabrication/`, `fit-template/`, README *Ordering PCBs* and *Assembly*

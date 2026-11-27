@@ -4,6 +4,7 @@ This manus places the 20 connectors and wires them up. On top are 8 male headers
 sockets, plus 4 female headers over the endstop and AUX-2 pins. Below them are 8 screw terminals. There
 are 28 nets and two net classes: **Kraft** (power, 0.8 mm) and **Signal** (0.3 mm).
 
+- Help movie: [`docs/help/pcbcraft-manus-2-schematic-nets.mp4`](../../help/pcbcraft-manus-2-schematic-nets.mp4) (0:55), the real PCBCraft window
 - Starts from: manus 1 (board outline)
 - Ends with: every connector placed and wired, unused pins marked, ERC clean
 - Reference: RampsTerminalHat `components`, `nets`, `net_classes`, README *Pinout*
