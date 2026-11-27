@@ -4,3 +4,4 @@ tests/results/
 tests/test-results/
 tests/playwright-report/
 .env
+__pycache__/
